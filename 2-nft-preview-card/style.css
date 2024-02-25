@@ -26,54 +26,44 @@ html {
 .card {
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
-    width: 270px;
-    height: 470px;
+    width: 250px;
     display: flex;
-    display:flex;
-    align-items:center;
-    flex-direction:column;
-    flex-wrap:nowrap;
-    margin-top:10px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    padding: 20px;
 }
 
 .image-equilibrium {
-    margin: 10px;
     border-radius: 10px;
-    width: 240px;
-    height: 240px;
+    max-width: 100%;
 }
 
 .titulo1 {
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
     font-weight: 600;
     color: white;
-    font-weight:normal;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-weight: normal;
 }
 
 .subtitulo1 {
-    font-size: 12px;
+    font-size: 14.5px;
     font-weight: 300;
     text-align: left;
     color: #839cbb;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .titulo2 {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     text-align: left;
     color: Cyan;
+    margin: 0px;
 }
 
-.texto2 {
+.iconeth {
     font-size: 12px;
     font-weight: 300;
     display: flex;
@@ -85,7 +75,7 @@ html {
     gap: 5px;
 }
 
-.texto3 {
+.iconrel {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -94,19 +84,21 @@ html {
     align-items: center;
     gap: 5px;
 }
+
 .titulo3 {
-    font-size: 12px;
+    font-size: 14px;
     color: #839cbb;
     font-weight: 400;
+    margin: 0px;
 }
 
-.icones {
+.icon {
     height: auto;
     border: 1px;
 }
 
 .criador {
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
     font-weight: 400;
     color: #839cbb;
@@ -120,17 +112,8 @@ html {
 }
 
 .nome_criador {
-    font-size: 15px;
-    text-align: left;
     font-weight: 300;
     color: hsl(0, 0%, 100%);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
 }
 
 .icon_criador {
@@ -138,4 +121,35 @@ html {
     border-radius: 50%;
     max-width: 30px;
 
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+hr {
+    border-color: #839cbb;
+    border-width: 1px !important;
+    width: 100%;
+    opacity: 15%;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
