@@ -114,6 +114,7 @@ html {
 .nome_criador {
     font-weight: 300;
     color: hsl(0, 0%, 100%);
+    text-decoration: unset;
 }
 
 .icon_criador {
